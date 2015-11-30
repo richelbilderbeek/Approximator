@@ -5,15 +5,12 @@ RESOURCES += \
 
 FORMS += \
     ../TestApproximator/qttestapproximatormenudialog.ui \
-    ../TestApproximator/qttestapproximatorxymaindialog.ui \
-    ../TestApproximator/qttestapproximatorxyzmaindialog.ui
+    ../TestApproximator/qttestapproximatorxymaindialog.ui
 
 SOURCES += \
     ../TestApproximator/qttestapproximatormenudialog.cpp \
-    ../TestApproximator/qttestapproximatorxymaindialog.cpp \
-    ../TestApproximator/qttestapproximatorxyzmaindialog.cpp
+    ../TestApproximator/qttestapproximatorxymaindialog.cpp
 
 HEADERS += \
     ../TestApproximator/qttestapproximatormenudialog.h \
-    ../TestApproximator/qttestapproximatorxymaindialog.h \
-    ../TestApproximator/qttestapproximatorxyzmaindialog.h
+    ../TestApproximator/qttestapproximatorxymaindialog.h

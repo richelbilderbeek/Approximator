@@ -6,14 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>353</width>
-    <height>463</height>
+    <width>341</width>
+    <height>443</height>
    </rect>
   </property>
   <property name="font">
    <font>
     <pointsize>20</pointsize>
    </font>
+  </property>
+  <property name="windowTitle">
+   <string>TestApproximator</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -30,7 +33,7 @@ QPushButton { font: 48px  }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestApproximator.qrc">:/images/TestApproximatorWelcome.png</pixmap>
+      <pixmap resource="TestApproximator.qrc">:/images/TestApproximatorWelcome.png</pixmap>
      </property>
     </widget>
    </item>
@@ -38,16 +41,6 @@ QPushButton { font: 48px  }</string>
     <widget class="QPushButton" name="button_start_xy">
      <property name="text">
       <string>Start (x,y)</string>
-     </property>
-     <property name="flat">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="button_start_xyz">
-     <property name="text">
-      <string>Start (x,y,z)</string>
      </property>
      <property name="flat">
       <bool>true</bool>
@@ -82,7 +75,7 @@ QPushButton { font: 48px  }</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="ToolTestApproximator.qrc"/>
+  <include location="TestApproximator.qrc"/>
  </resources>
  <connections/>
 </ui>

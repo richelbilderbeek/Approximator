@@ -8,7 +8,6 @@
 #include "testapproximatormenudialog.h"
 #include "qtaboutdialog.h"
 #include "qttestapproximatorxymaindialog.h"
-#include "qttestapproximatorxyzmaindialog.h"
 #include "qthideandshowdialog.h"
 #include "testtimer.h"
 #include "trace.h"
@@ -54,12 +53,6 @@ void ribi::tapx::QtMenuDialog::on_button_quit_clicked() noexcept
 void ribi::tapx::QtMenuDialog::on_button_start_xy_clicked() noexcept
 {
   QtXyMainDialog d;
-  ShowChild(&d);
-}
-
-void ribi::tapx::QtMenuDialog::on_button_start_xyz_clicked() noexcept
-{
-  QtXyzMainDialog d;
   ShowChild(&d);
 }
 
