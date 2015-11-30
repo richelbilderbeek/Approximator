@@ -30,7 +30,7 @@ QPushButton { font: 48px  }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestApproximator.qrc">:/images/ToolTestApproximatorWelcome.png</pixmap>
+      <pixmap resource="ToolTestApproximator.qrc">:/images/TestApproximatorWelcome.png</pixmap>
      </property>
     </widget>
    </item>

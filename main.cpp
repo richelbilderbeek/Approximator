@@ -8,7 +8,7 @@
 int main(int argc, char * argv[])
 {
   const std::vector<std::string> args { ribi::MenuDialog::ConvertArguments(argc,argv) };
-  return ribi::ToolTestApproximatorMenuDialog().Execute(args);
+  return ribi::tapx::MenuDialog().Execute(args);
 }
 
 /* Screen output

@@ -16,16 +16,17 @@ namespace Ui {
 }
 
 namespace ribi {
+namespace tapx {
 
-class QtToolTestApproximatorXyMainDialog : public QtHideAndShowDialog
+class QtXyMainDialog : public QtHideAndShowDialog
 {
   Q_OBJECT
   
 public:
-  explicit QtToolTestApproximatorXyMainDialog(QWidget *parent = 0) noexcept;
-  QtToolTestApproximatorXyMainDialog(const QtToolTestApproximatorXyMainDialog&) = delete;
-  QtToolTestApproximatorXyMainDialog& operator=(const QtToolTestApproximatorXyMainDialog&) = delete;
-  ~QtToolTestApproximatorXyMainDialog() noexcept;
+  explicit QtXyMainDialog(QWidget *parent = 0) noexcept;
+  QtXyMainDialog(const QtXyMainDialog&) = delete;
+  QtXyMainDialog& operator=(const QtXyMainDialog&) = delete;
+  ~QtXyMainDialog() noexcept;
   
 private slots:
   void on_button_clicked() noexcept;
@@ -55,6 +56,7 @@ private:
   #endif
 };
 
+} //~namespace tapx
 } //~namespace ribi
 
 #endif // QTTOOLTESTAPPROXIMATORXYMAINDIALOG_H
