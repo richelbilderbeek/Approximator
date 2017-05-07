@@ -58,6 +58,7 @@ struct ExceptionNoExtrapolation : public std::exception
   {
 
   }
+  virtual ~ExceptionNoExtrapolation() {}
   bool IsAboveMax() const noexcept { return m_is_above_max; }
   bool IsBelowMin() const noexcept { return m_is_below_min; }
   const char * what() const throw() override { return m_what.c_str(); }
