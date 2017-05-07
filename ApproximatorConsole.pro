@@ -15,7 +15,7 @@ include(../RibiClasses/CppDrawCanvas/CppDrawCanvas.pri)
 include(../RibiClasses/CppFuzzy_equal_to/CppFuzzy_equal_to.pri)
 include(../RibiClasses/CppGeometry/CppGeometry.pri)
 include(../RibiClasses/CppRibiRegex/CppRibiRegex.pri)
-include(../RibiClasses/CppPlane/CppPlane.pri)
+include(../plane/plane.pri)
 include(../RibiClasses/CppXml/CppXml.pri)
 
 include(ApproximatorConsole.pri)
