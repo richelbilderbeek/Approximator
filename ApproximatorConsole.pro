@@ -14,6 +14,6 @@ include(../RibiClasses/CppRibiRegex/CppRibiRegex.pri)
 include(../RibiClasses/CppPlane/CppPlane.pri)
 include(../RibiClasses/CppXml/CppXml.pri)
 
-include(TestApproximatorConsole.pri)
+include(ApproximatorConsole.pri)
 
 SOURCES += main.cpp

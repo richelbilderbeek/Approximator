@@ -33,7 +33,7 @@ QPushButton { font: 48px  }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="TestApproximator.qrc">:/images/TestApproximatorWelcome.png</pixmap>
+      <pixmap resource="Approximator.qrc">:/images/ApproximatorWelcome.png</pixmap>
      </property>
     </widget>
    </item>
@@ -75,7 +75,7 @@ QPushButton { font: 48px  }</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="TestApproximator.qrc"/>
+  <include location="Approximator.qrc"/>
  </resources>
  <connections/>
 </ui>

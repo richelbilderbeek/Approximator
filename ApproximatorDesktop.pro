@@ -16,6 +16,6 @@ include(../RibiClasses/CppPlane/CppPlane.pri)
 include(../RibiClasses/CppRibiRegex/CppRibiRegex.pri)
 include(../RibiClasses/CppXml/CppXml.pri)
 
-include(TestApproximatorDesktop.pri)
+include(ApproximatorDesktop.pri)
 
 SOURCES += qtmain.cpp
