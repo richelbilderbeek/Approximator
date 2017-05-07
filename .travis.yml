@@ -28,6 +28,7 @@ install:
   - sudo apt-get install sloccount
 
 script: 
+  - ./download_other_githubs
   # Console
   - qmake ApproximatorConsole.pro
   - make debug
