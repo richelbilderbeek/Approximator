@@ -1,7 +1,6 @@
 #include(../RibiLibraries/DesktopApplicationNoWeffcpp.pri)
 
 include(../RibiLibraries/Apfloat.pri)
-include(../RibiLibraries/Qwt.pri)
 
 include(../RibiClasses/CppAbout/CppAbout.pri)
 include(../RibiClasses/CppFileIo/CppFileIo.pri)
@@ -26,12 +25,8 @@ include(ApproximatorDesktop.pri)
 
 SOURCES += qtmain.cpp
 
-# C++14
-CONFIG += c++14
-QMAKE_CXXFLAGS += -std=c++14
-
 # High warning levels
-QMAKE_CXXFLAGS += -Wall -Wextra -Werror -std=c++14
+QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 
 QMAKE_CXXFLAGS += -Wno-deprecated-declarations
 
@@ -56,3 +51,8 @@ QMAKE_CXXFLAGS += -fext-numeric-literals
 # qrc_[*].cpp:400:44: error: ‘qInitResources_[*]__init_variable__’ defined but not used
 # [*]: the resource filename
 QMAKE_CXXFLAGS += -Wno-unused-variable
+
+# Qwt
+# Normal compiling
+LIBS += -lqwt-qt5
+INCLUDEPATH += /usr/include/qwt
