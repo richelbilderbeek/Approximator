@@ -1,5 +1,7 @@
 # Approximator
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/Approximator/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/Approximator.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Approximator)|[![codecov.io](https://codecov.io/github/richelbilderbeek/Approximator/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/Approximator/branch/master)
