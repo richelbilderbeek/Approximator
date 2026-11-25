@@ -30,3 +30,7 @@
 *.h.*
 
 site/
+
+wordlist.dic
+
+coverage/
