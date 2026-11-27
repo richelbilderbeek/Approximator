@@ -2,7 +2,7 @@
 site_name = "Approximator"
 site_url = "https://richelbilderbeek.github.io/Approximator/"
 repo_url = "https://github.com/richelbilderbeek/Approximator"
-edit_uri = "blob/master/docs/"
+edit_uri = "blob/main/docs/"
 
 nav = [
   { "Start" = "README.md"}
